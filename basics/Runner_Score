@@ -1,0 +1,5 @@
+n = int(input("Enter the number of participants : "))
+arr = map(int, input().split())
+a = list(set(arr))
+a.sort()
+print("The runner up score is : ", a[-2])
